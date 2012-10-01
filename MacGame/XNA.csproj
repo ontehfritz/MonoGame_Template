@@ -51,11 +51,11 @@
     <Reference Include="Lidgren.Network">
       <HintPath>bin\Debug\Lidgren.Network.dll</HintPath>
     </Reference>
-    <Reference Include="Tao.Sdl">
-      <HintPath>bin\Debug\Tao.Sdl.dll</HintPath>
-    </Reference>
     <Reference Include="MonoGame.Framework.MacOS">
       <HintPath>bin\Debug\MonoGame.Framework.MacOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>bin\Debug\Tao.Sdl.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

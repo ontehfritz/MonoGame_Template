@@ -6,11 +6,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
 
-namespace maker
+namespace MonoGame
 {
     public class MacGame : Game {
-        public GraphicsDeviceManager graphics;
-        public SpriteBatch spriteBatch;
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
 
         public MacGame() {
             graphics = new GraphicsDeviceManager (this);

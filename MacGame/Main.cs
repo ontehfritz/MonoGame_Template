@@ -1,6 +1,6 @@
 using MonoMac.Foundation;
 using MonoMac.AppKit;
-using maker;
+using MonoGame;
 
 /// <summary>
 /// Main class.
@@ -32,7 +32,7 @@ public class AppDelegate : NSApplicationDelegate {
     /// The game.
     /// </summary>
     //private MacGame game;
-    private maker.MacGame game;
+    private MonoGame.MacGame game;
 
     /// <summary>
     /// Called when Mac app is finished launching.
